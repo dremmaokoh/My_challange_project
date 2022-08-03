@@ -7,6 +7,8 @@ const {
   deleteUserByuserName,
   
 } = require('../controllers/controller');
+
+//Creating our router mapper
 const router = express.Router();
 
 router.post('/register', registerUser,);

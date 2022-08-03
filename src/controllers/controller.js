@@ -1,6 +1,7 @@
-
-const User_info = require("../models/model");
+// Importing our packages
 const bcrypt = require("bcrypt");
+const User_info = require("../models/model");
+
 
 //POST REQUEST/ REGISTER USER
 
@@ -43,7 +44,7 @@ exports.registerUser = async (req, res) => {
   }
 };
 
-// GET REQUEST/ ALL REGISTERED USER
+// GET REQUEST/ RETRIEVE ALL REGISTERED USERS
 exports.getUsers = async (req, res) => {
   try {
     const all_users = await User_info.find();
@@ -59,7 +60,7 @@ exports.getUsers = async (req, res) => {
   }
 };
 
-//GET REQUEST/ SINGLE USER BY USERNAME
+//GET REQUEST/ RETRIEVE SINGLE USER BY USERNAME
 exports.getUserByuserName = async (req, res) => {
   try {
     const user = await User_info.findOne({ userName: req.params.userName });
