@@ -5,6 +5,13 @@ Create a mobile banking app called HALAT BANKING APP with the folllowing endpoin
 >- to view data of everyone on the waitlist
 >- to edit someone's data of the waitlist in case they make any mistake while entering their data
 
+````````
+Stack Used
+```````````
+>- Vscode
+>- MongoDB
+>- Postman
+>- Nodejs
 
 ```````
 Packages Installed
