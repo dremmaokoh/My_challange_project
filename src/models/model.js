@@ -16,6 +16,7 @@ const userSchema = new mongoose.Schema(
     currentBusiness: {
       type: String,
       trim: true,
+      require: true,
     },
     password: { type: String, type: String, unique: true, require: true },
     userName: { type: String, required: true, unique: true, trim: true },
