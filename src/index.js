@@ -17,6 +17,13 @@ server.use(express.json());
 server.use ('/api', router);
 
 const port = process.env.PORT || 7895;
+
+
+// health check
+server.get('/', (req, res) => {
+  res.status(200).json({ message: 'WELCOME HALAT BANK APP 🍀🍀🍀' });
+});
+
  
 //Listening to server
 server.listen(port, () => {

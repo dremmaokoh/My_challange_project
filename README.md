@@ -8,20 +8,20 @@ Create a mobile banking app called HALAT BANKING APP with the folllowing endpoin
 ````````
 Stack Used
 ```````````
->- Vscode
->- MongoDB
->- Postman
->- Nodejs
+>- Vscode : Work environment
+>- MongoDB : Database
+>- Postman : API Documentation
+>- Nodejs : Open source
 
 ```````
 Packages Installed
 ````````````
->- Express
->- Mongoose
->- Bcrypt
->- Dotenv
->- Nodemon
->- Morgan
+>- Express : Framework
+>- Mongoose : To connect to database
+>- Bcrypt : To hash password
+>- Dotenv : To hide my keys
+>- Nodemon : To restart the server
+>- Morgan : Logger
 
 ``````````````
 How to install
